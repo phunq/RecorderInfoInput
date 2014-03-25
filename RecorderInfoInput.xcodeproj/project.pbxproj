@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A9E236618E1369F00E3EB70 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E236518E1369F00E3EB70 /* Common.m */; };
+		5A9E236818E137B700E3EB70 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9E236718E137B700E3EB70 /* location.png */; };
+		5AE8EAE718E1217200EDCEE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE8EAE618E1217200EDCEE1 /* Foundation.framework */; };
+		5AE8EAE918E1217200EDCEE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE8EAE818E1217200EDCEE1 /* CoreGraphics.framework */; };
+		5AE8EAEB18E1217200EDCEE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE8EAEA18E1217200EDCEE1 /* UIKit.framework */; };
+		5AE8EAF118E1217200EDCEE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8EAEF18E1217200EDCEE1 /* InfoPlist.strings */; };
+		5AE8EAF318E1217200EDCEE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8EAF218E1217200EDCEE1 /* main.m */; };
+		5AE8EAF718E1217200EDCEE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8EAF618E1217200EDCEE1 /* AppDelegate.m */; };
+		5AE8EAF918E1217200EDCEE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8EAF818E1217200EDCEE1 /* Images.xcassets */; };
+		5AE8EB0018E1217200EDCEE1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE8EAFF18E1217200EDCEE1 /* XCTest.framework */; };
+		5AE8EB0118E1217200EDCEE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE8EAE618E1217200EDCEE1 /* Foundation.framework */; };
+		5AE8EB0218E1217200EDCEE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE8EAEA18E1217200EDCEE1 /* UIKit.framework */; };
+		5AE8EB0A18E1217200EDCEE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8EB0818E1217200EDCEE1 /* InfoPlist.strings */; };
+		5AE8EB0C18E1217200EDCEE1 /* RecorderInfoInputTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8EB0B18E1217200EDCEE1 /* RecorderInfoInputTests.m */; };
+		5AE8EB1818E122C200EDCEE1 /* RecorderInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8EB1618E122C200EDCEE1 /* RecorderInfoVC.m */; };
+		5AE8EB1918E122C200EDCEE1 /* RecorderInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8EB1718E122C200EDCEE1 /* RecorderInfoVC.xib */; };
+		5AE8EB1D18E12B1100EDCEE1 /* ViewerDetailsMoreInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8EB1B18E12B1100EDCEE1 /* ViewerDetailsMoreInfoCell.m */; };
+		5AE8EB1E18E12B1100EDCEE1 /* ViewerDetailsMoreInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8EB1C18E12B1100EDCEE1 /* ViewerDetailsMoreInfoCell.xib */; };
+		5AE8EB2118E12B2F00EDCEE1 /* LabelTextkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8EB2018E12B2F00EDCEE1 /* LabelTextkit.m */; };
+		5AE8EB4118E12B7300EDCEE1 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8EB3718E12B7300EDCEE1 /* Lato-Black.ttf */; };
+		5AE8EB4218E12B7300EDCEE1 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8EB3818E12B7300EDCEE1 /* Lato-BlackItalic.ttf */; };
+		5AE8EB4318E12B7300EDCEE1 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8EB3918E12B7300EDCEE1 /* Lato-Bold.ttf */; };
+		5AE8EB4418E12B7300EDCEE1 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8EB3A18E12B7300EDCEE1 /* Lato-BoldItalic.ttf */; };
+		5AE8EB4518E12B7300EDCEE1 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8EB3B18E12B7300EDCEE1 /* Lato-Hairline.ttf */; };
+		5AE8EB4618E12B7300EDCEE1 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8EB3C18E12B7300EDCEE1 /* Lato-HairlineItalic.ttf */; };
+		5AE8EB4718E12B7300EDCEE1 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8EB3D18E12B7300EDCEE1 /* Lato-Italic.ttf */; };
+		5AE8EB4818E12B7300EDCEE1 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8EB3E18E12B7300EDCEE1 /* Lato-Light.ttf */; };
+		5AE8EB4918E12B7300EDCEE1 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8EB3F18E12B7300EDCEE1 /* Lato-LightItalic.ttf */; };
+		5AE8EB4A18E12B7300EDCEE1 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8EB4018E12B7300EDCEE1 /* Lato-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AE8EB0318E1217200EDCEE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE8EADB18E1217200EDCEE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE8EAE218E1217200EDCEE1;
+			remoteInfo = RecorderInfoInput;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A9E236418E1369F00E3EB70 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		5A9E236518E1369F00E3EB70 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		5A9E236718E137B700E3EB70 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		5AE8EAE318E1217200EDCEE1 /* RecorderInfoInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecorderInfoInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE8EAE618E1217200EDCEE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AE8EAE818E1217200EDCEE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AE8EAEA18E1217200EDCEE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AE8EAEE18E1217200EDCEE1 /* RecorderInfoInput-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecorderInfoInput-Info.plist"; sourceTree = "<group>"; };
+		5AE8EAF018E1217200EDCEE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AE8EAF218E1217200EDCEE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AE8EAF418E1217200EDCEE1 /* RecorderInfoInput-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecorderInfoInput-Prefix.pch"; sourceTree = "<group>"; };
+		5AE8EAF518E1217200EDCEE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AE8EAF618E1217200EDCEE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AE8EAF818E1217200EDCEE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5AE8EAFE18E1217200EDCEE1 /* RecorderInfoInputTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecorderInfoInputTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE8EAFF18E1217200EDCEE1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5AE8EB0718E1217200EDCEE1 /* RecorderInfoInputTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecorderInfoInputTests-Info.plist"; sourceTree = "<group>"; };
+		5AE8EB0918E1217200EDCEE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AE8EB0B18E1217200EDCEE1 /* RecorderInfoInputTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecorderInfoInputTests.m; sourceTree = "<group>"; };
+		5AE8EB1518E122C200EDCEE1 /* RecorderInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecorderInfoVC.h; sourceTree = "<group>"; };
+		5AE8EB1618E122C200EDCEE1 /* RecorderInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecorderInfoVC.m; sourceTree = "<group>"; };
+		5AE8EB1718E122C200EDCEE1 /* RecorderInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecorderInfoVC.xib; sourceTree = "<group>"; };
+		5AE8EB1A18E12B1100EDCEE1 /* ViewerDetailsMoreInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewerDetailsMoreInfoCell.h; sourceTree = "<group>"; };
+		5AE8EB1B18E12B1100EDCEE1 /* ViewerDetailsMoreInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewerDetailsMoreInfoCell.m; sourceTree = "<group>"; };
+		5AE8EB1C18E12B1100EDCEE1 /* ViewerDetailsMoreInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewerDetailsMoreInfoCell.xib; sourceTree = "<group>"; };
+		5AE8EB1F18E12B2F00EDCEE1 /* LabelTextkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelTextkit.h; sourceTree = "<group>"; };
+		5AE8EB2018E12B2F00EDCEE1 /* LabelTextkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelTextkit.m; sourceTree = "<group>"; };
+		5AE8EB3718E12B7300EDCEE1 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Black.ttf"; path = "Fonts/Lato-Black.ttf"; sourceTree = "<group>"; };
+		5AE8EB3818E12B7300EDCEE1 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-BlackItalic.ttf"; path = "Fonts/Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		5AE8EB3918E12B7300EDCEE1 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "Fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		5AE8EB3A18E12B7300EDCEE1 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-BoldItalic.ttf"; path = "Fonts/Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5AE8EB3B18E12B7300EDCEE1 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Hairline.ttf"; path = "Fonts/Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		5AE8EB3C18E12B7300EDCEE1 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-HairlineItalic.ttf"; path = "Fonts/Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		5AE8EB3D18E12B7300EDCEE1 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Italic.ttf"; path = "Fonts/Lato-Italic.ttf"; sourceTree = "<group>"; };
+		5AE8EB3E18E12B7300EDCEE1 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "Fonts/Lato-Light.ttf"; sourceTree = "<group>"; };
+		5AE8EB3F18E12B7300EDCEE1 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-LightItalic.ttf"; path = "Fonts/Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		5AE8EB4018E12B7300EDCEE1 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "Fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AE8EAE018E1217200EDCEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE8EAE918E1217200EDCEE1 /* CoreGraphics.framework in Frameworks */,
+				5AE8EAEB18E1217200EDCEE1 /* UIKit.framework in Frameworks */,
+				5AE8EAE718E1217200EDCEE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE8EAFB18E1217200EDCEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE8EB0018E1217200EDCEE1 /* XCTest.framework in Frameworks */,
+				5AE8EB0218E1217200EDCEE1 /* UIKit.framework in Frameworks */,
+				5AE8EB0118E1217200EDCEE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AE8EADA18E1217200EDCEE1 = {
+			isa = PBXGroup;
+			children = (
+				5AE8EAEC18E1217200EDCEE1 /* RecorderInfoInput */,
+				5AE8EB0518E1217200EDCEE1 /* RecorderInfoInputTests */,
+				5AE8EAE518E1217200EDCEE1 /* Frameworks */,
+				5AE8EAE418E1217200EDCEE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AE8EAE418E1217200EDCEE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AE8EAE318E1217200EDCEE1 /* RecorderInfoInput.app */,
+				5AE8EAFE18E1217200EDCEE1 /* RecorderInfoInputTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AE8EAE518E1217200EDCEE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE8EAE618E1217200EDCEE1 /* Foundation.framework */,
+				5AE8EAE818E1217200EDCEE1 /* CoreGraphics.framework */,
+				5AE8EAEA18E1217200EDCEE1 /* UIKit.framework */,
+				5AE8EAFF18E1217200EDCEE1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AE8EAEC18E1217200EDCEE1 /* RecorderInfoInput */ = {
+			isa = PBXGroup;
+			children = (
+				5AE8EAF518E1217200EDCEE1 /* AppDelegate.h */,
+				5AE8EAF618E1217200EDCEE1 /* AppDelegate.m */,
+				5AE8EAF818E1217200EDCEE1 /* Images.xcassets */,
+				5AE8EAED18E1217200EDCEE1 /* Supporting Files */,
+				5AE8EB1518E122C200EDCEE1 /* RecorderInfoVC.h */,
+				5AE8EB1618E122C200EDCEE1 /* RecorderInfoVC.m */,
+				5AE8EB1718E122C200EDCEE1 /* RecorderInfoVC.xib */,
+				5AE8EB1A18E12B1100EDCEE1 /* ViewerDetailsMoreInfoCell.h */,
+				5AE8EB1B18E12B1100EDCEE1 /* ViewerDetailsMoreInfoCell.m */,
+				5AE8EB1C18E12B1100EDCEE1 /* ViewerDetailsMoreInfoCell.xib */,
+				5AE8EB1F18E12B2F00EDCEE1 /* LabelTextkit.h */,
+				5AE8EB2018E12B2F00EDCEE1 /* LabelTextkit.m */,
+				5A9E236418E1369F00E3EB70 /* Common.h */,
+				5A9E236518E1369F00E3EB70 /* Common.m */,
+				5A9E236718E137B700E3EB70 /* location.png */,
+				5AE8EB2218E12B3B00EDCEE1 /* Fonts */,
+			);
+			path = RecorderInfoInput;
+			sourceTree = "<group>";
+		};
+		5AE8EAED18E1217200EDCEE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AE8EAEE18E1217200EDCEE1 /* RecorderInfoInput-Info.plist */,
+				5AE8EAEF18E1217200EDCEE1 /* InfoPlist.strings */,
+				5AE8EAF218E1217200EDCEE1 /* main.m */,
+				5AE8EAF418E1217200EDCEE1 /* RecorderInfoInput-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AE8EB0518E1217200EDCEE1 /* RecorderInfoInputTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE8EB0B18E1217200EDCEE1 /* RecorderInfoInputTests.m */,
+				5AE8EB0618E1217200EDCEE1 /* Supporting Files */,
+			);
+			path = RecorderInfoInputTests;
+			sourceTree = "<group>";
+		};
+		5AE8EB0618E1217200EDCEE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AE8EB0718E1217200EDCEE1 /* RecorderInfoInputTests-Info.plist */,
+				5AE8EB0818E1217200EDCEE1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AE8EB2218E12B3B00EDCEE1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5AE8EB3718E12B7300EDCEE1 /* Lato-Black.ttf */,
+				5AE8EB3818E12B7300EDCEE1 /* Lato-BlackItalic.ttf */,
+				5AE8EB3918E12B7300EDCEE1 /* Lato-Bold.ttf */,
+				5AE8EB3A18E12B7300EDCEE1 /* Lato-BoldItalic.ttf */,
+				5AE8EB3B18E12B7300EDCEE1 /* Lato-Hairline.ttf */,
+				5AE8EB3C18E12B7300EDCEE1 /* Lato-HairlineItalic.ttf */,
+				5AE8EB3D18E12B7300EDCEE1 /* Lato-Italic.ttf */,
+				5AE8EB3E18E12B7300EDCEE1 /* Lato-Light.ttf */,
+				5AE8EB3F18E12B7300EDCEE1 /* Lato-LightItalic.ttf */,
+				5AE8EB4018E12B7300EDCEE1 /* Lato-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AE8EAE218E1217200EDCEE1 /* RecorderInfoInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE8EB0F18E1217200EDCEE1 /* Build configuration list for PBXNativeTarget "RecorderInfoInput" */;
+			buildPhases = (
+				5AE8EADF18E1217200EDCEE1 /* Sources */,
+				5AE8EAE018E1217200EDCEE1 /* Frameworks */,
+				5AE8EAE118E1217200EDCEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecorderInfoInput;
+			productName = RecorderInfoInput;
+			productReference = 5AE8EAE318E1217200EDCEE1 /* RecorderInfoInput.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AE8EAFD18E1217200EDCEE1 /* RecorderInfoInputTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE8EB1218E1217200EDCEE1 /* Build configuration list for PBXNativeTarget "RecorderInfoInputTests" */;
+			buildPhases = (
+				5AE8EAFA18E1217200EDCEE1 /* Sources */,
+				5AE8EAFB18E1217200EDCEE1 /* Frameworks */,
+				5AE8EAFC18E1217200EDCEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE8EB0418E1217200EDCEE1 /* PBXTargetDependency */,
+			);
+			name = RecorderInfoInputTests;
+			productName = RecorderInfoInputTests;
+			productReference = 5AE8EAFE18E1217200EDCEE1 /* RecorderInfoInputTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AE8EADB18E1217200EDCEE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Green Global";
+				TargetAttributes = {
+					5AE8EAFD18E1217200EDCEE1 = {
+						TestTargetID = 5AE8EAE218E1217200EDCEE1;
+					};
+				};
+			};
+			buildConfigurationList = 5AE8EADE18E1217200EDCEE1 /* Build configuration list for PBXProject "RecorderInfoInput" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AE8EADA18E1217200EDCEE1;
+			productRefGroup = 5AE8EAE418E1217200EDCEE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AE8EAE218E1217200EDCEE1 /* RecorderInfoInput */,
+				5AE8EAFD18E1217200EDCEE1 /* RecorderInfoInputTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AE8EAE118E1217200EDCEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE8EB4318E12B7300EDCEE1 /* Lato-Bold.ttf in Resources */,
+				5AE8EAF118E1217200EDCEE1 /* InfoPlist.strings in Resources */,
+				5AE8EB4618E12B7300EDCEE1 /* Lato-HairlineItalic.ttf in Resources */,
+				5AE8EB4818E12B7300EDCEE1 /* Lato-Light.ttf in Resources */,
+				5AE8EB1E18E12B1100EDCEE1 /* ViewerDetailsMoreInfoCell.xib in Resources */,
+				5AE8EB4718E12B7300EDCEE1 /* Lato-Italic.ttf in Resources */,
+				5AE8EB4418E12B7300EDCEE1 /* Lato-BoldItalic.ttf in Resources */,
+				5A9E236818E137B700E3EB70 /* location.png in Resources */,
+				5AE8EB4218E12B7300EDCEE1 /* Lato-BlackItalic.ttf in Resources */,
+				5AE8EB4518E12B7300EDCEE1 /* Lato-Hairline.ttf in Resources */,
+				5AE8EB1918E122C200EDCEE1 /* RecorderInfoVC.xib in Resources */,
+				5AE8EB4118E12B7300EDCEE1 /* Lato-Black.ttf in Resources */,
+				5AE8EB4A18E12B7300EDCEE1 /* Lato-Regular.ttf in Resources */,
+				5AE8EAF918E1217200EDCEE1 /* Images.xcassets in Resources */,
+				5AE8EB4918E12B7300EDCEE1 /* Lato-LightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE8EAFC18E1217200EDCEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE8EB0A18E1217200EDCEE1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AE8EADF18E1217200EDCEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9E236618E1369F00E3EB70 /* Common.m in Sources */,
+				5AE8EAF718E1217200EDCEE1 /* AppDelegate.m in Sources */,
+				5AE8EB1D18E12B1100EDCEE1 /* ViewerDetailsMoreInfoCell.m in Sources */,
+				5AE8EB2118E12B2F00EDCEE1 /* LabelTextkit.m in Sources */,
+				5AE8EAF318E1217200EDCEE1 /* main.m in Sources */,
+				5AE8EB1818E122C200EDCEE1 /* RecorderInfoVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE8EAFA18E1217200EDCEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE8EB0C18E1217200EDCEE1 /* RecorderInfoInputTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AE8EB0418E1217200EDCEE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE8EAE218E1217200EDCEE1 /* RecorderInfoInput */;
+			targetProxy = 5AE8EB0318E1217200EDCEE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AE8EAEF18E1217200EDCEE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE8EAF018E1217200EDCEE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5AE8EB0818E1217200EDCEE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE8EB0918E1217200EDCEE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AE8EB0D18E1217200EDCEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AE8EB0E18E1217200EDCEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AE8EB1018E1217200EDCEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecorderInfoInput/RecorderInfoInput-Prefix.pch";
+				INFOPLIST_FILE = "RecorderInfoInput/RecorderInfoInput-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5AE8EB1118E1217200EDCEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecorderInfoInput/RecorderInfoInput-Prefix.pch";
+				INFOPLIST_FILE = "RecorderInfoInput/RecorderInfoInput-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5AE8EB1318E1217200EDCEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RecorderInfoInput.app/RecorderInfoInput";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecorderInfoInput/RecorderInfoInput-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RecorderInfoInputTests/RecorderInfoInputTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5AE8EB1418E1217200EDCEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RecorderInfoInput.app/RecorderInfoInput";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecorderInfoInput/RecorderInfoInput-Prefix.pch";
+				INFOPLIST_FILE = "RecorderInfoInputTests/RecorderInfoInputTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AE8EADE18E1217200EDCEE1 /* Build configuration list for PBXProject "RecorderInfoInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE8EB0D18E1217200EDCEE1 /* Debug */,
+				5AE8EB0E18E1217200EDCEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE8EB0F18E1217200EDCEE1 /* Build configuration list for PBXNativeTarget "RecorderInfoInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE8EB1018E1217200EDCEE1 /* Debug */,
+				5AE8EB1118E1217200EDCEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE8EB1218E1217200EDCEE1 /* Build configuration list for PBXNativeTarget "RecorderInfoInputTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE8EB1318E1217200EDCEE1 /* Debug */,
+				5AE8EB1418E1217200EDCEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AE8EADB18E1217200EDCEE1 /* Project object */;
+}
